@@ -8,6 +8,7 @@ import AddBtn from './componets/layout/AddBtn';
 import AddLogModal from './componets/logs/AddLogModal';
 import EditLogModal from './componets/logs/EditLogModal';
 import AddTechModal from './componets/techs/AddTechModal';
+import TechListModal from './componets/techs/TechListModal';
 function App() {
   useEffect(() => {
     M.AutoInit();
@@ -20,6 +21,7 @@ function App() {
         <AddLogModal />
         <EditLogModal />
         <AddTechModal />
+        <TechListModal />
         <Logs />
       </div>
     </Fragment>
