@@ -1,0 +1,59 @@
+{
+  "logs": [
+    {
+      "id": 1,
+      "message": "Work station need to update",
+      "attention": true,
+      "date": "03-02-2019",
+      "tech": "Mike"
+    },
+    {
+      "id": 2,
+      "message": "Work station need to update",
+      "attention": false,
+      "date": "03-02-2019",
+      "tech": "John"
+    },
+    {
+      "id": 3,
+      "message": "Work station need to update",
+      "attention": true,
+      "date": "03-02-2019",
+      "tech": "Sara"
+    },
+    {
+      "id": 4,
+      "message": "Work station need to update",
+      "attention": false,
+      "date": "03-02-2019",
+      "tech": "Sam"
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "first_name": "Sam",
+      "last_name": "Murry"
+    },
+    {
+      "id": 2,
+      "first_name": "Sara",
+      "last_name": "Murry"
+    },
+    {
+      "id": 4,
+      "first_name": "Jhon",
+      "last_name": "Murry"
+    },
+    {
+      "id": 3,
+      "first_name": "Mike",
+      "last_name": "Murry"
+    },
+    {
+      "first_name": "Bunny",
+      "last_name": "Murry",
+      "id": 5
+    }
+  ]
+}
