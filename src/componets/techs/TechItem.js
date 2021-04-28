@@ -7,7 +7,7 @@ const TechItem = ({ tech }) => {
       <div>
         {tech.first_name} {tech.last_name}
         <a href='!#' className='secondary-content'>
-          <i class='material-icons red-text'>delete</i>
+          <i className='material-icons red-text'>delete</i>
         </a>
       </div>
     </li>
