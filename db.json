@@ -8,13 +8,6 @@
       "tech": "Mike"
     },
     {
-      "id": 2,
-      "message": "Work station need to update",
-      "attention": false,
-      "date": "03-02-2019",
-      "tech": "John"
-    },
-    {
       "id": 3,
       "message": "Work station need to update",
       "attention": true,
