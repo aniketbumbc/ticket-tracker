@@ -7,6 +7,7 @@ import {
   SET_CURRENT,
   CLEAR_LOG,
   UPDATE_LOG,
+  SEARCH_LOGS,
 } from './types';
 
 // export const getLogs = () => {
@@ -33,7 +34,6 @@ export const getLogs = () => async (dispatch) => {
       payload: data,
     });
   } catch (err) {
-    debugger;
     dispatch({
       type: LOGS_ERROR,
       payload: err,
@@ -102,6 +102,25 @@ export const updateLog = (log) => async (dispatch) => {
       payload: data,
     });
   } catch (err) {
+    dispatch({
+      type: LOGS_ERROR,
+      payload: err,
+    });
+  }
+};
+
+export const searchLogs = (text) => async (dispatch) => {
+  try {
+    setLoading();
+    const res = await fetch(`./logs?q=${text}`);
+    const data = await res.json();
+
+    dispatch({
+      type: SEARCH_LOGS,
+      payload: data,
+    });
+  } catch (err) {
+    debugger;
     dispatch({
       type: LOGS_ERROR,
       payload: err,
