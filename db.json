@@ -2,38 +2,24 @@
   "logs": [
     {
       "id": 1,
-      "message": "Work station need to update",
+      "message": "Test system done",
+      "attention": false,
+      "tech": "Deo-4",
+      "date": "2021-05-06T16:48:46.278Z"
+    },
+    {
+      "id": 2,
+      "message": "Install MAC no battery issue",
       "attention": true,
-      "date": "03-02-2019",
-      "tech": "Mike"
+      "tech": "Deo-3",
+      "date": "2021-05-06T16:49:06.130Z"
     },
     {
       "id": 3,
-      "message": "Work station need to update",
-      "attention": true,
-      "date": "03-02-2019",
-      "tech": "Sara"
-    },
-    {
-      "id": 4,
-      "message": "Work station need to update",
+      "message": "Server reboot Done @2PM",
       "attention": false,
-      "date": "03-02-2019",
-      "tech": "Sam"
-    },
-    {
-      "message": "Add server",
-      "attention": true,
-      "tech": "Deo",
-      "date": "2021-05-05T16:38:30.886Z",
-      "id": 5
-    },
-    {
-      "message": "Need windows system restore",
-      "attention": false,
-      "tech": "Deo-2",
-      "date": "2021-05-05T16:42:08.599Z",
-      "id": 6
+      "tech": "Deo-4",
+      "date": "2021-05-06T16:48:32.601Z"
     }
   ],
   "techs": [
