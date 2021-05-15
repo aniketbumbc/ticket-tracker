@@ -22,9 +22,9 @@ const SearchBar = ({ searchLogs }) => {
               onChange={onChange}
             />
             <label className='label-icon' htmlFor='search'>
-              <i className='material-icons'>search Tech</i>
+              <i className='material-icons'>Search Tech</i>
             </label>
-            <i className='material-icons'>close</i>
+            <i className='material-icons'>Close</i>
           </div>
         </form>
       </div>
